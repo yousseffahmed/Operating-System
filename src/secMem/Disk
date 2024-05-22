@@ -1,0 +1,9 @@
+Line semWait userInput
+Line assign a input
+Line semSignal userInput
+Line semWait file
+Line assign b readFile a
+Line semSignal file
+Line semWait userOutput
+Line print b
+Line semSignal userOutput
